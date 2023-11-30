@@ -1,10 +1,21 @@
 body {
   background-color: linen;
   height: 100vh;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: larger;
 }
 
 .App {
   text-align: center;
+}
+
+.jokes {
+  text-align: left;
+  max-width: 65ch;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+
+  & li {
+    margin-bottom: 1rem;
+  }
 }
